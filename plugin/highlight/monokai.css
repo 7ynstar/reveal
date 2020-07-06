@@ -2,12 +2,18 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
+.javascript .hljs {
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;!important;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
+  /*padding: 0.5em;*/
+  padding: 40px;
   background: #272822;
   color: #ddd;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
 
 .hljs-tag,
@@ -16,15 +22,18 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-literal,
 .hljs-strong,
 .hljs-name {
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
   color: #f92672;
 }
 
 .hljs-code {
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
   color: #66d9ef;
 }
 
 .hljs-class .hljs-title {
   color: white;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
 
 .hljs-attribute,
@@ -32,6 +41,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-regexp,
 .hljs-link {
   color: #bf79db;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
 
 .hljs-string,
@@ -50,6 +60,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-template-tag,
 .hljs-template-variable {
   color: #a6e22e;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
 
 .hljs-comment,
@@ -57,6 +68,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-deletion,
 .hljs-meta {
   color: #75715e;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
 
 .hljs-keyword,
@@ -68,4 +80,5 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 .hljs-type,
 .hljs-selector-id {
   font-weight: bold;
+  font-family: Monaco, Consolas, tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
 }
